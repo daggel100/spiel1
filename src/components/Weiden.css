@@ -1,0 +1,77 @@
+/* .weiden-container {
+  padding: 20px;
+} */
+
+/* .weiden-grid {
+    display: flex; */
+    /*flex-wrap: wrap; /* Falls kein Platz, umbrechen */
+    /*justify-content: center; /* Falls eine Weide in die nächste Zeile rutscht, soll sie mittig sein */
+    /*align-items: flex-start; /* Oben ausrichten */
+    /*gap: 20px; /* Abstand zwischen den Weiden */
+    /*width: 100%; /* Die volle Breite der roten Box */
+    /*max-width: 1400px; /* Damit es nicht zu breit wird */
+    /*margin: 0 auto; /* Zentriert die rote Box */
+    /*padding: 20px; /* Etwas Innenabstand */
+    /*border: 2px solid red; /* TEST: Damit du die rote Box sehen kannst */
+    /* box-sizing: border-box; */
+  /* } */
+  
+  /* .weide { */
+    /*flex: 1 1 30%; /* Basisgröße: 30%, kann schrumpfen oder wachsen */
+    /*min-width: 300px; /* Mindestbreite */
+    /*max-width: 400px; /* Maximalbreite, damit sie sich nicht zu stark ausdehnen */
+    /* height: 400px; */
+    /* background-color: #2e2e2e;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 300px;
+    min-height: 300px;
+  } */
+
+  /* .weide-content {
+    display: flex;
+    flex-wrap: wrap; /* Erlaubt Umbruch in eine neue Reihe */
+   /* gap: 10px; /* Abstand zwischen den Karten */
+   /* justify-content: flex-start; /* Links ausrichten */
+ /* } */
+  
+  /* .card {
+    width: 100px; /* Breite der Karte */
+  /*  text-align: center;
+  } */
+
+
+  .weiden-container {
+    padding: 20px;
+  }
+  
+  .weiden-grid {
+    display: flex;
+    gap: 20px; /* Abstand zwischen den Weiden */
+    justify-content: center;
+  }
+  
+  .weide {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    min-height: 300px;
+    background-color: #f4f4f4;
+  }
+  
+  .weide-content {
+    display: flex;
+    flex-wrap: wrap; /* Erlaubt Umbruch in eine neue Reihe */
+    gap: 10px; /* Abstand zwischen den Karten */
+    justify-content: flex-start; /* Links ausrichten */
+  }
+  
+  .card {
+    width: 100px; /* Breite der Karte */
+    text-align: center;
+  }

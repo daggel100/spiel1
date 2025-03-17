@@ -1,0 +1,46 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Damit es sich bei kleinen Bildschirmen umbricht */
+    /* justify-content: center; */
+    gap: 20px; /* Abstand zwischen den Karten */
+    justify-content: center; /* Karten zentrieren */
+    padding: 20px;
+    /* background-color: red; */
+    margin-bottom: 40px;   /* Führ mehr Abstand nach unten*/
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .card:hover {
+    transform: scale(1.1); /* Kleine Vergrößerung beim Hover */
+  }
+  
+  .card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .card p {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #ddd
+  }
+
+  /* Leere Karten ausblenden */
+.card:empty {
+  display: none;
+}
